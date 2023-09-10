@@ -4,6 +4,7 @@ const user = 'cadulo'
 const password = 'PBLHFbkApgVVzRLA'
 const database_name ='album-maker'
 const url = `mongodb+srv://cadulo:${password}@gallerydb.4vqdol5.mongodb.net/?retryWrites=true&w=majority`
+//mongodb+srv://cadulo:PBLHFbkApgVVzRLA@gallerydb.4vqdol5.mongodb.net/?retryWrites=true&w=majority
 // const url = 'mongodb://127.0.0.1:27017/'
 
 mongoose.connect(url)
